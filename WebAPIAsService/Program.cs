@@ -21,6 +21,6 @@ namespace WebAPIAsService
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                }).UseWindowsService();
     }
 }
