@@ -30,4 +30,5 @@ sc delete WebAPIAsService
 
 
 ## 访问：
-访问 [http://localhost:5000/weatherforecast](http://localhost:5000/weatherforecast) 返回一段 Json 即为服务部署正常；
+访问 [http://localhost:5000/weatherforecast/get](http://localhost:5000/weatherforecast/get) 返回一段 Json 即为服务部署正常；
+
